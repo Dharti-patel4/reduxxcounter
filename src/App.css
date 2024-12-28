@@ -1,0 +1,38 @@
+
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    /* top: auto; */
+    left: auto;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 2px solid #444444;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+  }
+
+  button:hover {
+    background-color: #333333;
+    border-color: #666666;
+  }
+
+  button:active {
+    background-color: #444444;
+    transform: scale(0.98);
+  }
